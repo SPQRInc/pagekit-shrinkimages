@@ -1,0 +1,25 @@
+{
+  "name": "spqr/shrinkimages",
+  "module": "spqr/shrinkimages",
+  "version": "1.0.0",
+  "type": "pagekit-extension",
+  "title": "Shrink Images",
+  "description": "Shrinks images to improve loading time.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Lossin-Beßler",
+      "homepage": "https://spqr.wtf"
+    }
+  ],
+  "extra": {
+    "icon": "icon.svg",
+    "scripts": "scripts.php"
+  },
+  "require": {
+    "php": "^7.0",
+    "psr/log": "^1.0",
+    "symfony/process": "^2.8|^3.0",
+    "spatie/image-optimizer": "^1.0"
+  }
+}
